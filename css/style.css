@@ -754,7 +754,8 @@ footer ul li a:hover {
   z-index: 9999;
   max-width: 280px;
 }
-@media (max-width: 721px) and (min-width: 690){
+@media (max-width: 690px)
+{
     .hero-inner {
         display: flex;
         flex-direction: column;
