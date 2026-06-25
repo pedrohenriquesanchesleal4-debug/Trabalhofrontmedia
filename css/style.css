@@ -234,8 +234,7 @@ img {
   .cards .card-veiculo {
     width: calc(50% - 0.75rem);
   }
-  .hero-image { flex-direction: column;
-    align-items: center;}
+
 }
 
 @media (max-width: 575px) {
@@ -244,9 +243,6 @@ img {
     align-items: center;
   }
   
-  .hero-image { flex-direction: column;
-    align-items: center;}
-
   .cards .card-veiculo {
     width: 100%;
   }
@@ -757,4 +753,21 @@ footer ul li a:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   z-index: 9999;
   max-width: 280px;
+}
+@media (max-width: 768px) {
+    .hero-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-texto,
+    .hero-imagem {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-imagem img {
+        width: 100%;
+        height: auto;
+    }
 }
